@@ -12,6 +12,7 @@
 		E8458E261E7FEAED0061295C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8458E241E7FEAED0061295C /* Main.storyboard */; };
 		E8458E281E7FEAED0061295C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8458E271E7FEAED0061295C /* Assets.xcassets */; };
 		E8458E2B1E7FEAED0061295C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8458E291E7FEAED0061295C /* LaunchScreen.storyboard */; };
+		E8C00AB41E820C370044BAE9 /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8C00AB31E820C370044BAE9 /* still time.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E8458E271E7FEAED0061295C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8458E2A1E7FEAED0061295C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8458E2C1E7FEAED0061295C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8C00AB31E820C370044BAE9 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "still time.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +56,14 @@
 		E8458E1F1E7FEAED0061295C /* PartyRockApp */ = {
 			isa = PBXGroup;
 			children = (
+				E8C00AB51E820C420044BAE9 /* Files */,
+				E8458E341E7FEC5A0061295C /* Model */,
+				E8458E331E7FEC510061295C /* View */,
 				E8458E321E7FEB570061295C /* Controller */,
 				E8458E201E7FEAED0061295C /* AppDelegate.swift */,
+				E8458E291E7FEAED0061295C /* LaunchScreen.storyboard */,
 				E8458E241E7FEAED0061295C /* Main.storyboard */,
 				E8458E271E7FEAED0061295C /* Assets.xcassets */,
-				E8458E291E7FEAED0061295C /* LaunchScreen.storyboard */,
 				E8458E2C1E7FEAED0061295C /* Info.plist */,
 			);
 			path = PartyRockApp;
@@ -70,6 +75,28 @@
 				E8458E221E7FEAED0061295C /* MainVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		E8458E331E7FEC510061295C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E8458E341E7FEC5A0061295C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E8C00AB51E820C420044BAE9 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8C00AB31E820C370044BAE9 /* still time.ttf */,
+			);
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8458E2B1E7FEAED0061295C /* LaunchScreen.storyboard in Resources */,
+				E8C00AB41E820C370044BAE9 /* still time.ttf in Resources */,
 				E8458E281E7FEAED0061295C /* Assets.xcassets in Resources */,
 				E8458E261E7FEAED0061295C /* Main.storyboard in Resources */,
 			);
@@ -310,6 +338,7 @@
 				E8458E311E7FEAED0061295C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
