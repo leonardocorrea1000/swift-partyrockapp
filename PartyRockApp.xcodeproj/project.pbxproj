@@ -13,6 +13,9 @@
 		E8458E281E7FEAED0061295C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8458E271E7FEAED0061295C /* Assets.xcassets */; };
 		E8458E2B1E7FEAED0061295C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8458E291E7FEAED0061295C /* LaunchScreen.storyboard */; };
 		E8C00AB41E820C370044BAE9 /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8C00AB31E820C370044BAE9 /* still time.ttf */; };
+		E8C00AB71E82874E0044BAE9 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C00AB61E82874E0044BAE9 /* VideoViewController.swift */; };
+		E8C00AB91E8288AF0044BAE9 /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C00AB81E8288AF0044BAE9 /* PartyCell.swift */; };
+		E8C00ABB1E8289DA0044BAE9 /* PartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C00ABA1E8289DA0044BAE9 /* PartyRock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E8458E2A1E7FEAED0061295C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8458E2C1E7FEAED0061295C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8C00AB31E820C370044BAE9 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "still time.ttf"; sourceTree = "<group>"; };
+		E8C00AB61E82874E0044BAE9 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		E8C00AB81E8288AF0044BAE9 /* PartyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
+		E8C00ABA1E8289DA0044BAE9 /* PartyRock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyRock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				E8458E221E7FEAED0061295C /* MainVC.swift */,
+				E8C00AB61E82874E0044BAE9 /* VideoViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -80,6 +87,7 @@
 		E8458E331E7FEC510061295C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E8C00AB81E8288AF0044BAE9 /* PartyCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -87,6 +95,7 @@
 		E8458E341E7FEC5A0061295C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E8C00ABA1E8289DA0044BAE9 /* PartyRock.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -175,6 +184,9 @@
 			files = (
 				E8458E231E7FEAED0061295C /* MainVC.swift in Sources */,
 				E8458E211E7FEAED0061295C /* AppDelegate.swift in Sources */,
+				E8C00ABB1E8289DA0044BAE9 /* PartyRock.swift in Sources */,
+				E8C00AB91E8288AF0044BAE9 /* PartyCell.swift in Sources */,
+				E8C00AB71E82874E0044BAE9 /* VideoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

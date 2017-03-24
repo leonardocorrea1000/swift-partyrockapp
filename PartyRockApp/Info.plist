@@ -45,5 +45,7 @@
 	<array>
 		<string>still time.ttf</string>
 	</array>
+	<key>Allow Arbitrary Loads</key>
+	<true/>
 </dict>
 </plist>
